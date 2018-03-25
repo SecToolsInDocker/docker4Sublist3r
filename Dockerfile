@@ -1,4 +1,5 @@
 FROM alpine:3.7
+LABEL maintainer "nancheald@gmail.com"
 # install common tools
 RUN apk update \
     && apk add git \

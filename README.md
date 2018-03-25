@@ -9,3 +9,7 @@
 ```
 docker run --rm -e ALL_PROXY=socks5://127.0.0.1:1080 test:test -d baidu.com -v
 ```
+
+## todo
+
+精简镜像大小
