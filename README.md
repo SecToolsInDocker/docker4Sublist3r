@@ -7,7 +7,7 @@
 
 这里推荐使用-e参数来设置你的ss代理，经过测试直接链接和代理链接的结果会根据站点的不同差大约200个左右的域名，因为其中miss的部分为google这类墙外的引擎
 ```
-docker run --rm -e ALL_PROXY=socks5://127.0.0.1:1080 test:test -d baidu.com -v
+docker run --rm -e ALL_PROXY=socks5://127.0.0.1:1080 nancheal/docker4sublist3r -d baidu.com -v
 ```
 
 ## todo
